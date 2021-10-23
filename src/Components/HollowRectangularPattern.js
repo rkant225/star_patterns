@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const HollowRectangularPattern = () => {
   const [row, setRow] = useState(10);
   const [col, setCol] = useState(10);
-  const [inclideDots, setInclideDots] = useState(true);
+  const [inclideDots, setInclideDots] = useState(false);
 
   const getStarPattern = () => {
     let pattern = ``;

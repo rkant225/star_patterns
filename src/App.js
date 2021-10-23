@@ -4,6 +4,7 @@ import TriangularPattern from './Components/TriangularPattern';
 import HollowRectangularPattern from './Components/HollowRectangularPattern';
 import HollowTriangularPattern from './Components/HollowTriangularPattern';
 import Footer from './Components/Footer';
+import PyramidPattern from './Components/PyramidPattern';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HollowRectangularPattern/>
       <TriangularPattern/>
       <HollowTriangularPattern/>
+      <PyramidPattern/>
 
       <Footer/>
     </div>

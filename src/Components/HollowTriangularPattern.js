@@ -4,7 +4,7 @@ const HollowTriangularPattern = () => {
 
     const [triangleType, setTriangleType] = useState('UPPER-RIGHT');
     const [row, setRow] = useState(10);
-    const [inclideDots, setInclideDots] = useState(true);
+    const [inclideDots, setInclideDots] = useState(false);
 
     const getStarPattern = () => {
 
