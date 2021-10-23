@@ -28,11 +28,27 @@
   color: #61dafb;
 }
 
+input{
+  margin: .5rem;
+}
+
+a{
+  color: blue;
+  margin-right: 1rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width: 600px) {
+  .hide-for-smaller-screen {
+    display: none;
   }
 }
