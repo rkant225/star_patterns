@@ -5,17 +5,25 @@ import HollowRectangularPattern from './Components/HollowRectangularPattern';
 import HollowTriangularPattern from './Components/HollowTriangularPattern';
 import Footer from './Components/Footer';
 import PyramidPattern from './Components/PyramidPattern';
+import Admin from './Components/Users/Admin';
+import Manager from './Components/Users/Manager';
+import Adviser from './Components/Users/Adviser';
 
 function App() {
   return (
     <div style={{display : 'flex', flexWrap : 'wrap', justifyContent : 'space-evenly'}}>
-      <RectangularPattern/>
+      {/* <RectangularPattern/>
       <HollowRectangularPattern/>
       <TriangularPattern/>
       <HollowTriangularPattern/>
-      <PyramidPattern/>
+      <PyramidPattern/> */}
 
-      <Footer/>
+
+      <Admin/>
+      <Manager/>
+      <Adviser/>
+
+      {/* <Footer/> */}
     </div>
   );
 }
